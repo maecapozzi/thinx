@@ -143,3 +143,15 @@ color: black !important;
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
+
+.form-control.input-sm.bfh-number { 
+  display: inline;
+  width: 250px;
+} 
+
+.increment { 
+  border-style: solid;
+  border-width: 1px;
+  padding: 6px;
+}
+

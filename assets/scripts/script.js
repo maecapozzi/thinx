@@ -1,7 +1,8 @@
 $( document ).ready(function() { 
-  $(".fa.fa-check.black").hide(); 
+  $(".fa.fa-check.beige").hide(); 
   blackCheck();
   beigeCheck(); 
+  increment();
 });
 
 function blackCheck() { 
@@ -19,3 +20,21 @@ function beigeCheck() {
 }
 
 
+function increment() { 
+  $(".increment").click(function(){ 
+    var $button = $(this);
+    var oldValue = $button.parent().find(".form-control.input-sm.bfh-number").val();
+
+    if ($button.text() == "+") {
+      var newVal = parseFloat(oldValue) + 1;
+    } else {
+      // Don't allow decrementing below zero
+      if (oldValue > 0) {
+        var newVal = parseFloat(oldValue) - 1;
+      } else {
+        newVal = 0;
+      }
+    }
+    $button.parent().find(".form-control.input-sm.bfh-number").val(newVal);
+  })
+}
