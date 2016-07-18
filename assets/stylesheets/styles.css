@@ -1,0 +1,132 @@
+* {
+  border-radius: 0 !important;
+}
+
+@font-face { 
+  font-family: "Graphik-Medium";
+  src: url("/assets/images/Graphik-Medium.otf") format("otf");
+  src: url("/assets/images/Graphik-Medium.ttf") format("ttf");
+  src: url("/assets/images/Graphik-Medium.woff") format("woff");
+  font-style: normal;
+}
+
+/* Global */
+
+a { 
+  font-family: "Graphik-Medium";
+  color: black;
+  text-decoration: underline;
+}
+
+p { 
+  font-family: "Graphik-Medium";
+}
+
+/* Jumbotron */
+.center-image { 
+  width: 100%;
+}
+
+.jumbotron { 
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+.jumbotron p { 
+  font-size: 15px;
+  margin-right: 90px;
+  margin-left: 10px;
+}
+
+.jumbotron h4 { 
+  font-size: 15px;
+  padding-top: 5em;
+  margin-left: 10px;
+  font-family: "Graphik-Medium";
+  font-style: bold;
+}
+
+.input-group-addon.black { 
+  background-color: black; 
+  color: white;
+  font-style: normal;
+}
+
+.input-group-addon.beige { 
+  background-color: beige; 
+  color: black;
+}
+
+.form-control { 
+  border-color: black;
+  border-width: 1px;
+}
+
+input[type="placeholder"]{ 
+  color: black;
+}
+
+input::-webkit-input-placeholder {
+color: black !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: black !important;  
+}
+
+.first-image { 
+  height: 75%;
+  width: 75%;
+  margin-left: 120px;
+}
+
+.second-image { 
+  height: 25%;
+  width: 50%;
+  margin-left: 40px;
+}
+
+.third-image { 
+  height: 75%;
+  width: 75%;
+}
+
+.fourth-image { 
+  height: 75%;
+  width: 75%;
+  margin-left: 120px;
+}
+
+.fifth-image { 
+  height: 25%;
+  width: 50%;
+  margin-left: 40px;
+}
+
+.image-content { 
+  margin: 0 0 0 120px;
+}
+
+.image-content2 { 
+  margin: 0 0 0 40px;
+}
+
+.image-content3 { 
+  margin: 0 0 0 0;
+}
+
+.right-content { 
+  margin-bottom: 40px;
+}
+
+.center-content { 
+  margin-bottom: 40px;
+}
