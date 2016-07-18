@@ -6,7 +6,7 @@
   font-family: "Graphik-Medium";
   src: url("/assets/images/Graphik-Medium.otf") format("otf");
   src: url("/assets/images/Graphik-Medium.ttf") format("ttf");
-  src: url("/assets/images/Graphik-Medium.woff") format("woff");
+  /*src: url("/assets/images/Graphik-Medium.woff") format("woff");*/
   font-style: normal;
 }
 
