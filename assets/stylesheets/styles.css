@@ -130,3 +130,13 @@ color: black !important;
 .center-content { 
   margin-bottom: 40px;
 }
+
+.img-container { 
+  overflow-y: scroll;
+  height: 800px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
