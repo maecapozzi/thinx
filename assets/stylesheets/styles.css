@@ -24,7 +24,10 @@ p {
 
 /* Jumbotron */
 .center-image { 
-  width: 100%;
+  width: 75%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .jumbotron { 
@@ -133,7 +136,7 @@ color: black !important;
 
 .img-container { 
   overflow-y: scroll;
-  height: 800px;
+  height: 650px;
 }
 
 ::-webkit-scrollbar {
