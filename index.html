@@ -1,114 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thinx Coding Challenge</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/stylesheets/styles.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-    <script src="assets/scripts/script.js"></script>
-    <script src="https://use.fontawesome.com/51e0197491.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-3">
-            <h4>HI-WAIST</h4>
-            <p>Heavy days. Holds up to 2 tampon's worth.</p>
-            <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.</p>
-          </div>
-          <div class="col-md-6">
-            <div class="img-container">
-              <img class="center-image" src="assets/images/image1.jpg" alt="image">
-              <img class="center-image" src="assets/images/image2.jpg" alt="image">
-              <img class="center-image" src="assets/images/image3.jpg" alt="image">
-              <img class="center-image" src="assets/images/image4.jpg" alt="image">
-              <img class="center-image" src="assets/images/image5.jpg" alt="image">
-              <img class="center-image" src="assets/images/image6.jpg" alt="image">
-            </div>
-          </div>
-          <div class="col-md-3">
-            <h4>$35.00</h4>
-            <div class="form-group">
-              <div class="input-group">
-                <input type="text" class="form-control input-sm" id="color" placeholder="color">
-                <span id="black-button" class="input-group-addon black">
-                  <i class="black-btn">black</i><span> <i class="fa fa-check black"></i></span>
-                </span>
-                <span id="beige-button" class="input-group-addon beige">
-                  <i class="beige-btn">beige</i><span> <i class="fa fa-check beige"></i></span>
-                </span>
-              </div>
-            </div>
-            <div class="form-group quantity">
-              <span class="increment">+</span><input class="form-control input-sm bfh-number" placeholder="quantity (1)"><span class="increment">-</span>
-            </div>
-            <div class="form-group">
-              <select class="form-control input-sm">
-                <option>size</option>
-                <option>XS</option>
-                <option>S</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
-              </select>
-              <a href="/">what's my size</a>
-            </div>
-            <div class="form-group">
-              <button type="submit">add to cart</button>
-            </div>
-            <a>build a cycle set and save up to 20%</a>
-          </div>
-        </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thinx Coding Challenge</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="row">  
+      <div class="col-xs-4"> 
+        <h2>HI-WAIST</h2>
+        <p>Heavy days. Holds up to 2 tampons worth.</p>
+        <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.</p> 
       </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-6">
-            <img class="first-image" src="assets/images/thinx_productpage_-04.jpg" alt="image1">
-            <p class="image-content"><a href="/">Shop Hiphugger</a></p>
-            <p class="image-content">heavy days</p>
-          </div>
-          <div class="col-xs-6">
-            <div class="right-content">
-              <img class="second-image" src="assets/images/thinx_productpage_-03.jpg" alt="image2">
-              <p class="image-content2" ><a href="/">Shop Cheeky</a></p>
-              <p class="image-content2" >light days</p>
-            </div>
-          </div>
+      <div class="col-xs-4"> 
+        <img class="img-responsive" src="assets/images/Image1.jpg">
+      </div> 
+      <div class="col-xs-4">
+        <div class="row"> 
+          <p>$35.00</p> 
+          <div class="color-picker">
+            <span class="color">
+              <p>color</p> 
+            </span> 
+            <span class="black">
+              <p>black</p> 
+            </span>
+            <span class="beige">
+              <p>beige</p> 
+            </span> 
+          </div> 
         </div>
-        <div class="row">
-          <div class="col-xs-4">
-          </div>
-          <div class="col-xs-6">
-            <img class="third-image" src="assets/images/thinx_productpage_-05.jpg" alt="image3">
-            <div class="center-content">
-              <p class="image-content3"><a href="/">Shop Thong</a></p>
-              <p class="image-content3" >lightest days</p>
-            </div>
-          </div>
-          <div class="col-xs-4">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6">
-            <div class="right-content">
-              <img class="fourth-image" src="assets/images/thinx_productpage_-07.jpg" alt="image1">
-              <p class="image-content"><a href="/">Shop Sport</a></p>
-              <p class="image-content">medium days</p>
-            </div>
-          </div>
-          <div class="col-xs-6">
-            <img class="fifth-image" src="assets/images/thinx_productpage_-08.jpg" alt="image2">
-            <p class="image-content2"><a href="/">Shop Boyshort</a></p>
-            <p class="image-content2">light days</p>
-          </div>
-        </div>
-      </div>
-    </div>
+        <div class="row"> 
+          <div class="color-picker quantity"> 
+            <span class="color">
+              <img class="quantity-btns plus-btn" src="assets/images/plus.png">
+            </span>
+            <span class="quantity-section">
+              <p>quantity</p>
+            </span>
+            <img class="img-responsive quantity-btns minus-btn pull-right" src="assets/images/minus.png">
+          </div> 
+        </div> 
+      </div> 
+    </div> 
   </div>
 </body>
 </html>
